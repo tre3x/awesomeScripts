@@ -51,9 +51,9 @@ sub_btn = tk.Button(root,
                     command=submit,
                     bg="#9ab3f5")
 
-name_label.place(x=250, y=110)
-name_entry.place(x=215, y=130)
-text_label.place(x=265, y=200)
-text_entry.place(x=215, y=220)
-sub_btn.place(x=260, y=250)
+name_label.place(x=250, y=90)
+name_entry.place(x=215, y=110)
+text_label.place(x=265, y=160)
+text_entry.place(x=205, y=180, height=70, width=170)
+sub_btn.place(x=260, y=280)
 root.mainloop()
